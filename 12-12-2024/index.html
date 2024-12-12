@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>OBLICZ ŚREDNIĄ</h1>
+        
+            <label for="name">Podaj imię i nazwisko: </label><input type="text" id="name" name="name">
+            <label for="grade1">Ocena 1: </label><input type="number" max="6" min="1" id="grade1" name="grade1">
+
+            <label for="grade2">Ocena 2: </label><input type="number" max="6" min="1" id="grade2" name="grade2">
+
+            <label for="grade3">Ocena 3: </label><input type="number" max="6" min="1" id="grade3" name="grade3">
+
+            <label for="grade4">Ocena 4: </label><input type="number" max="6" min="1" id="grade4" name="grade4">
+
+            <label for="grade5">Ocena 5: </label><input type="number" max="6" min="1" id="grade5" name="grade5">
+            <button type="submit" id="btn">OBLICZ</button>
+        
+        <div id="result"><span id="res"></span></div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
